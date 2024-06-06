@@ -1,0 +1,403 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+
+}
+
+
+/* Header Section */
+
+li, a{
+    color: white;
+}
+
+li,a:hover{
+    color: #ff2525;
+}
+
+.header{
+    background-color: rgb(0, 0, 0);
+    color: blanchedalmond;
+    display: flex;
+    justify-content: space-between;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    align-items: center;
+    padding: 10px 50px;
+}
+
+.logo{
+    width: 120px;
+}
+
+
+.nav li {
+    display: inline-block;
+    margin: 10px;
+}
+
+button{
+    background-color: rgb(129, 2, 2);
+    padding: 10px;
+    border-radius: 15px;
+    border: none;
+    font-size: 16px;
+    color: white;
+}
+
+
+
+/* Header Section */
+
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #fff;
+    padding: 20px;
+}
+
+.hero-content {
+    display: flex;
+    align-items: center;
+    max-width: 1200px;
+    width: 100%;
+}
+
+.text {
+    flex: 1;
+}
+
+.text h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.text p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.btan {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1em;
+    color: white;
+    background-color: #a10d0d;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #810404;
+    color: white;
+}
+
+.image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.image img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #a10d0d;
+}
+
+/* Skill Section */
+.svg{
+    margin-top: -280px;
+}
+
+.skills {
+    padding: 50px 20px;
+    background-color: black;
+    text-align: center;
+    color: white;
+    margin-top: -6.1px;
+}
+
+.skills .container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.skills h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+}
+
+.skill {
+    margin-bottom: 20px;
+}
+
+.skill h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.progress-bar {
+    width: 100%;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    overflow: hidden;
+    height: 30px;
+}
+
+.progress {
+    height: 100%;
+    color: #fff;
+    text-align: right;
+    padding-right: 10px;
+    line-height: 30px;
+    border-radius: 5px;
+}
+
+.progress.html {
+    width: 90%;
+    background-color: #e44d26;
+}
+
+.progress.css {
+    width: 85%;
+    background-color: #264de4;
+}
+
+.progress.js {
+    width: 75%;
+    background-color: #f0db4f;
+    color: #000;
+}
+
+.progress.react {
+    width: 70%;
+    background-color: #61dbfb;
+    color: #000;
+}
+
+.progress.node {
+    width: 65%;
+    background-color: #68a063;
+}
+
+
+
+
+
+/* about Section */
+
+.aboutsvg{
+    margin-top: -250px;
+}
+
+
+
+.about {
+    padding: 50px 20px;
+    background-color: #fff;
+    color: black;
+    text-align: center;
+    margin-top: -4.5cm;
+}
+
+.about .container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.about-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-image {
+    flex: 1;
+    min-width: 300px;
+    margin: 20px;
+}
+
+.about-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.about-text {
+    flex: 2;
+    min-width: 300px;
+    margin: 20px;
+    text-align: left;
+}
+
+.about-text h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.about-text p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+/* Contact Section */
+
+
+
+.contact {
+    padding: 50px 20px;
+    background-color: #a10d0d;
+    color: white;
+    text-align: center;
+    margin-top: -7px;
+}
+
+.contact .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: -6cm;
+    margin-bottom: 5px;
+    height: 18cm;
+}
+
+.contact h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-size: 1em;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1em;
+    color: black;
+    background-color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: black;
+    color: white;
+}
+
+
+/* footer Section */
+
+.footsvg{
+    margin-top: -7cm;
+}
+
+
+.footer {
+    background-color: #000000;
+    color: #fff;
+    padding: 50px 20px;
+    text-align: center;
+    margin-top: -7px;
+}
+
+.footer .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: -4cm;
+}
+
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+
+.footer-section {
+    flex: 1;
+    min-width: 250px;
+    margin: 10px;
+    background-color: #000;
+    color: white;
+}
+
+.footer-section h2 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.footer-section p,
+.footer-section ul {
+    font-size: 1em;
+}
+
+.footer-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-section ul li a:hover {
+    color: #007bff;
+}
+
+.footer-bottom {
+    border-top: 1px solid #555;
+    padding-top: 20px;
+}
+
+.footer-bottom p {
+    margin: 0;
+    font-size: 1em;
+}
+
+
+
